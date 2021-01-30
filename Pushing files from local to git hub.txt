@@ -1,0 +1,34 @@
+$ ssh-keygen -t rsa -b 4096 -C "sanju901955@gmail.com"
+-> Enter
+I have put :9019 as passphrase
+
+ensure ssh agen is running
+eval $(ssh-agent -s)
+
+for adding run command
+$ ssh-add ~/.ssh/id_rsa
+give the passphrase:9019
+
+it will add your private key into your ssh-agent
+
+Now adding public key to your git-hub account
+$ clip < ~/.ssh/id_rsa.pub
+so it will add to your public key
+then go to in git hub setting
+@ https://github.com/settings/ssh/new
+
+After running the command as:--$ clip < ~/.ssh/id_rsa.pub
+
+paste it onto the git hub within @ https://github.com/settings/ssh/new after giving any title
+this only once
+
+go to the files which we wish to push from the local desktop or from the local computer
+
+open the bash here
+git init
+git add .
+commit it and 
+
+git remote add origin git-hub_url
+git push origin master
+
