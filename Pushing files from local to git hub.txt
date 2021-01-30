@@ -2,7 +2,7 @@ $ ssh-keygen -t rsa -b 4096 -C "sanju901955@gmail.com"
 -> Enter
 I have put :9019 as passphrase
 
-ensure ssh agen is running
+ensure ssh agent is running
 eval $(ssh-agent -s)
 
 for adding run command
