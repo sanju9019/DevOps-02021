@@ -35,7 +35,7 @@ git push origin master
 https way:--
 head of the branch means:--latest commit id from where we always work
 
-https://www.datacamp.com/community/tutorials/git-push-pull
+
 
 8. Add the URL copied, which is your remote repository to where your local content from your repository is pushed.
 
