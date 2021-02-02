@@ -7,7 +7,7 @@ eval $(ssh-agent -s)
 
 for adding run command
 $ ssh-add ~/.ssh/id_rsa
-give the passphrase:9019
+give the passphrase:9019 :--
 
 it will add your private key into your ssh-agent
 
