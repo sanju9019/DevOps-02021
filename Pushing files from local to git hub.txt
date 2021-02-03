@@ -7,7 +7,7 @@ eval $(ssh-agent -s)
 
 for adding run command
 $ ssh-add ~/.ssh/id_rsa
-give the passphrase:9019
+give the passphrase:9019 :--
 
 it will add your private key into your ssh-agent
 
@@ -31,4 +31,21 @@ commit it and
 
 git remote add origin git-hub_url
 git push origin master
+....................
+https way:--
+head of the branch means:--latest commit id from where we always work
+
+
+
+8. Add the URL copied, which is your remote repository to where your local content from your repository is pushed.
+
+git remote add origin 'your_url_name'
+In the above code, The 'origin' is the remote name, and the remote URL is "https://github.com/Olivia-Smithcoder100/FaceDetection.git". You can see the remote as GitHub in this case, and GitHub provides the URL for adding to the remote repository.
+9. Push the code in your local repository to GitHub
+
+git push -u origin master is used for pushing local content to GitHub.
+In the code, the origin is your default remote repository name and '-u' flag is upstream, which is equivalent to '-set-upstream.' and the master is the branch, name.upstream is the repository that we have cloned the project.
+
+
+
 
